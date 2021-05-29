@@ -1,0 +1,34 @@
+#timerGame {
+  background: linen;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#timerGame .container {
+  background: white;
+  width: 360px;
+  height: 100px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#timerGame .left {
+  font-size: 50px;
+  line-height: 100px;
+}
+
+#timerGame .right {
+  font-size: 20px;
+  width: 180px;
+  text-align: center;
+}
+
+#timerGameBtn {
+  display: block;
+  margin: 10px auto;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+}
