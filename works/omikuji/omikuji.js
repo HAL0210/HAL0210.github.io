@@ -2,11 +2,14 @@
 
 {
   document.querySelector('button').addEventListener('click', () => {
-    const omikuji = document.querySelector('button');
-    const num = Math.floor(Math.random() * variasions.length);
+    console.log('おみくじを引きます。')
 
-    // レア確率（大吉と大凶）の判定
+    const omikuji = document.querySelector('button');
+
+    // レア確率（大吉と凶）の判定
     const rare = Math.random();
+
+    console.log('rare:' + String(rare))
 
     if (rare < 0.05) {
       omikuji.textContent = '大吉';
@@ -21,10 +24,13 @@
       omikuji.classList.remove('happy', 'normal');
       omikuji.classList.add('bad');
     } else {
-      omikuji.textContent = variasions[num];
+      const number = Math.floor(Math.random() * variasions.length);
+      console.log('number:' + String(number))
+      omikuji.textContent = variasions[number];
       omikuji.classList.remove('happy', 'bad');
       omikuji.classList.add('normal');
     }
+    console.log(omikuji.textContent + 'が引かれました')
 
   });
 
@@ -32,7 +38,7 @@
     "中吉",
     "小吉",
     "末吉",
-    "末吉",
+    "末吉",// 末吉の確率を二倍
     "吉",
   ]
   // 大吉： 5%
