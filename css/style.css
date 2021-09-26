@@ -389,7 +389,7 @@ footer {
   padding: 5px;
 }
 
-#contact .submit {
+#contactLink .submit {
   background-color: #800;
   color: white;
   padding: 10px;
@@ -405,7 +405,7 @@ footer {
   cursor: pointer;
 }
 
-#contact .submit:hover {
+#contactLink .submit:hover {
   background-color: white;
   border-color: brown;
   color: brown;
