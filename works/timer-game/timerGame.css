@@ -31,4 +31,10 @@
   width: 150px;
   height: 60px;
   cursor: pointer;
+  background-color: moccasin;
+  border: 2px solid maroon;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 60px;
+  user-select: none;
 }
