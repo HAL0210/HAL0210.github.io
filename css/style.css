@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -406,5 +407,11 @@ footer {
   }
   #portfolio .profile .text {
     margin-top: 50px;
+  }
+
+  #contact textarea {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
   }
 }
