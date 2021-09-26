@@ -344,6 +344,36 @@ footer {
   opacity: 0.5;
 }
 
+/* CONTACT-LINK */
+#contactLink h3 {
+  margin-top: 20px;
+}
+
+#contactLink .btn {
+  background-color: #800;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  width: 160px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: serif;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+#contactLink .btn:hover {
+  background-color: white;
+  border-color: brown;
+  color: brown;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
 
 /* CONTACT */
 #contact table {
@@ -383,6 +413,11 @@ footer {
   opacity: 0.9;
 }
 
+#contactFooter {
+  background-color: antiquewhite;
+  color: black;
+}
+
 
 /* レスポンシブデザイン（製作中） */
 
@@ -407,6 +442,10 @@ footer {
   }
   #portfolio .profile .text {
     margin-top: 50px;
+  }
+
+  .zoomDisable {
+    display: none;
   }
 
   #contact textarea {
