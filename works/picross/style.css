@@ -1,0 +1,12 @@
+.mass {
+  width: 10px;
+  height: 10px;
+}
+
+.unselect {
+  background-color: silver;
+}
+
+.select {
+  background-color: black;
+}
